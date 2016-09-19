@@ -5,7 +5,9 @@ GENERAL
   width: 90%;
   margin: 0 auto;
 }
-
+h1 {
+  color: #F53563;
+}
 
 
 
@@ -13,9 +15,11 @@ GENERAL
 /* ***********************************************************
 Navigation
 ************************************************************ */
-nav .top-bar{
-  background-color: 333C4E;
+nav.top-bar, .top-bar ul, .menu, .top-bar-right a{
+  background-color: #333C4E;
+  color: #F53563;
 }
+
 
 
 
