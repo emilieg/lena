@@ -6,23 +6,46 @@ GENERAL
   margin: 0 auto;
 }
 h1 {
+  font-family: 'Open Sans', sans-serif;
   color: #F53563;
 }
-
+p {
+  font-family: 'Open Sans';
+  font-weight: 300;
+}
 
 
 
 /* ***********************************************************
-Navigation
+NAV DESKTOP
 ************************************************************ */
 nav.top-bar, .top-bar ul, .menu, .top-bar-right a{
   background-color: #333C4E;
   color: #F53563;
+  height: 80px;
+  padding: 0;
+  margin: 0px;
 }
 
+ul > a {
+  line-height: 80px;
+}
+.nav-logo {
+  height:40px;
+}
+.nav-logo-name {
+  margin-left: 15px;
+  font-family:'Lily Script One', cursive;
+  font-size: 20px;
+  color: white;
+}
+.menu > li > a{
+  color: #F53563;
+  display: inline-block;
+  line-height: 80px;
+  padding: 0px 10px;
 
-
-
+}
 
 
 
