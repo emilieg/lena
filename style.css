@@ -58,7 +58,7 @@ ul > a {
 HERO
 ************************************************************ */
 .hero {
-  padding: 80px 0px;
+  padding: 0px 0px 80px 0px;
 }
 
 
@@ -71,9 +71,12 @@ HERO
 MAIN
 ************************************************************ */
 .main {
-  padding: 80px 0px;
+  padding-bottom: 80px;
 }
-
+.main h1 {
+  text-transform: uppercase;
+  font-size: medium;
+}
 
 
 
@@ -87,23 +90,13 @@ footer {
   color: white;
   text-align: center;
 }
-footer a {
-  display: block;
-  color: rgba(255,255,255,0.5);;
-}
-footer h4 {
-  color: white;
-}
-footer hr {
-  border-color: rgba(255,255,255,0.1);
-  margin: 10px 0;
-}
+
 .footer {
   font-size: 1.5rem;
   padding: 80px 0;
 }
 .footer-icons i {
-  border: 1.5px solid lightgrey;
+  border: 1.5px solid rgba(255,255,255, 0.5);
   border-radius: 50%;
   font-size: 1.5rem;
   width: 2.5rem;
@@ -112,12 +105,16 @@ footer hr {
   line-height: 2.3rem;
   vertical-align: middle;
 }
+.footer-icons i:hover {
+  color: #F53563;
+}
 .footer-icons p {
   margin: 0 auto;
 }
 .copy-right {
   margin: 5px 0 5px 0;
 }
+
 
 /* ***********************************************************
 MEDIA QUERIES
@@ -126,5 +123,8 @@ MEDIA QUERIES
 @media (max-width: 639px) {
   .nav-desktop {
     display: none;
+  }
+  .hero {
+    padding: 0px;
   }
 }
