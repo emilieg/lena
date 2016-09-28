@@ -21,7 +21,7 @@ p {
 NAV DESKTOP
 ************************************************************ */
 nav.nav-desktop, .top-bar ul, .menu, .top-bar-right a{
-  background-color: #333C4E;
+  /*background-color: #333C4E;*/
   color: #F53563;
   height: 80px;
   padding: 0;
@@ -51,8 +51,16 @@ ul > a {
 .menu > li > a:hover {
   color: #F53563;
 }
+nav.top-bar, nav.nav-desktop {
+  width: 100%;
+}
+.top-bar, .top-bar ul {
+  background-color: transparent;
+}
 
-
+div.sticky-container {
+  height: initial !important;
+}
 
 /* ***********************************************************
 HERO
@@ -60,11 +68,24 @@ HERO
 .hero {
   padding: 0px 0px 80px 0px;
 }
-
-
-
-
-
+.orbit-bullets button {
+  background-color: #333C4E;
+}
+.orbit-bullets button.is-active {
+  background-color: #F53563;
+}
+.orbit-bullets button:hover {
+  background-color: #666F81;
+}
+button.orbit-next:hover, button.orbit-next:focus, button.orbit-next:active {
+  background-color: transparent;
+}
+button.orbit-previous:hover, button.orbit-previous:focus, button.orbit-previous:active {
+  background-color: transparent;
+}
+ul.orbit-container {
+  height: initial !important;
+}
 
 
 /* ***********************************************************
