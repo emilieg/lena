@@ -14,9 +14,27 @@ h1 {
 p {
   font-weight: 300;
 }
-
-
-
+/* ***********************************************************
+NAV MOBILE
+************************************************************ */
+/*.nav-mobile {
+  display: none;
+}
+.nav-mobile-logo {
+  text-align: center;
+  list-style: none;
+  margin: 0;
+}
+.nav-mobile-logo li {
+  display: inline;
+  margin: 1.5em;
+  border: 1px solid #333;
+}
+.nav-mobile-logo a {
+  color: #F53563;
+  padding: .5em;
+  text-align: center;
+}*/
 /* ***********************************************************
 NAV DESKTOP
 ************************************************************ */
@@ -25,9 +43,14 @@ nav.nav-desktop, .top-bar ul, .menu, .top-bar-right a{
   color: #F53563;
   height: 80px;
   padding: 0;
-  margin: 0px;
+  margin: 0;
 }
-
+nav.top-bar {
+  margin: 0 !important;
+}
+nav ul {
+  list-style-type: none;
+}
 ul > a {
   line-height: 80px;
 }
@@ -60,6 +83,7 @@ nav.top-bar, nav.nav-desktop {
 
 div.sticky-container {
   height: initial !important;
+  z-index: 999999;
 }
 
 /* ***********************************************************
@@ -142,10 +166,23 @@ MEDIA QUERIES
 ************************************************************ */
 
 @media (max-width: 639px) {
-  .nav-desktop {
+/*  .nav-desktop {
     display: none;
+  }*/
+  .top-bar-left {
+    /*float: none;*/
   }
+  .top-bar-right {
+    /*float: none;*/
+  }
+  nav {
+    height:50px;
+  }
+/*  .nav-mobile {
+    display: block;
+  }*/
   .hero {
     padding: 0px;
   }
 }
+
