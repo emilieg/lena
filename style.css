@@ -80,6 +80,9 @@ nav.top-bar, nav.nav-desktop {
 .top-bar, .top-bar ul {
   background-color: transparent;
 }
+.top-bar-left > ul > li > a {
+  line-height: 80px;
+}
 
 div.sticky-container {
   height: initial !important;
@@ -166,21 +169,15 @@ MEDIA QUERIES
 ************************************************************ */
 
 @media (max-width: 639px) {
-/*  .nav-desktop {
-    display: none;
-  }*/
-  .top-bar-left {
-    /*float: none;*/
-  }
-  .top-bar-right {
-    /*float: none;*/
+  .top-bar-left, .top-bar-right {
+    width: auto !important;
   }
   nav {
     height:50px;
   }
-/*  .nav-mobile {
-    display: block;
-  }*/
+  .nav-logo-name {
+    display: none;
+  }
   .hero {
     padding: 0px;
   }
