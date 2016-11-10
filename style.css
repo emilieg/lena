@@ -38,10 +38,10 @@ ul > a {
   margin-left: 15px;
   font-family:'Lily Script One', cursive;
   font-size: 20px;
-  color: white;
+  color: #F53563;
 }
 .menu > li > a{
-  color: white;
+  color: #F53563;
   display: inline-block;
   line-height: 80px;
   padding: 0px 10px;
