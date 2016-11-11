@@ -6,5 +6,10 @@ $( document ).ready(function() {
      //change the navigation logo to a smaller version
     $('.nav-logo').attr('src', 'assets/LY-Lotus.png');
     }
+
+    $('.contact-button').click(function(){
+      var email = '<p>lenaeyou@gmail.com</p>';
+      $('.contact-button').replaceWith(email);
+    })
 });
 

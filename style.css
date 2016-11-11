@@ -14,6 +14,26 @@ h1 {
 p {
   font-weight: 300;
 }
+.contact-button {
+  border: .5px solid #F53563;
+  color: #F53563;
+  padding: 1em;
+  border-radius: 20px;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: .5s;
+  -moz-transition-property: all;
+  -moz-transition-duration: .5s;
+  -o-transition-property: all;
+  -o-transition-duration: .5s;
+}
+.contact-button:hover, .contact-button:focus {
+  color: white;
+  background-color: #F53563;
+  border-color: #F53563;
+  box-shadow: 0 3px 12px 0 rgba(0,0,0,.25);
+}
+
+
 /* ***********************************************************
 NAV MOBILE
 ************************************************************ */
@@ -119,15 +139,32 @@ ul.orbit-container {
 MAIN
 ************************************************************ */
 .main {
-  padding-bottom: 80px;
+  margin-bottom: 5vh;  
+}
+.main-barre {
+  height: 1200px;
+}  
+.main-index {
+  height: 300px;
 }
 .main h1 {
   text-transform: uppercase;
   font-size: medium;
 }
+.contact {
+  margin-top: 2em;
+  text-align: center;
+}
 
-
-
+/* ***********************************************************
+BARRE PAGE
+************************************************************ */
+.barre {
+  margin-top: 3em;
+}
+.barre-contact{
+  width: 100%;
+}
 
 /* ***********************************************************
 FOOTER
