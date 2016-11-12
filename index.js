@@ -9,7 +9,9 @@ $( document ).ready(function() {
 
     $('.contact-button').click(function(){
       var email = '<p>lenaeyou@gmail.com</p>';
-      $('.contact-button').replaceWith(email);
+      $('.contact-button').fadeOut("slow", function(){
+        $(email).appendTo('.contact').hide().fadeIn();
+      });
     })
 });
 
