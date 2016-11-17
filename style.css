@@ -32,7 +32,18 @@ p {
   border-color: #F53563;
   box-shadow: 0 3px 12px 0 rgba(0,0,0,.25);
 }
-
+.contact-button-send {
+  border: .5px solid #F53563;
+  color: #F53563;
+  padding: 1em;
+  border-radius: 20px;
+  -webkit-transition-property: all;
+  -webkit-transition-duration: .5s;
+  -moz-transition-property: all;
+  -moz-transition-duration: .5s;
+  -o-transition-property: all;
+  -o-transition-duration: .5s; 
+}
 
 /* ***********************************************************
 NAV MOBILE
