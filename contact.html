@@ -38,50 +38,56 @@
   <!-- MAIN SECTION-->
   <section class="main main-index">
     <div class="row wrapper">
-      <div class="column small-12 medium-12">
+      <div class="column small-12 medium-12 contact">
         <h1>let's connect</h1>
-          <p>For any questions or requests please fill out the form below to send me a message</p>
+          <p>For any questions or requests please fill out the form below.</p>
       </div>
     </div>
-    <div class="row wrapper">
+    <div class="row">
       <div class="column small-12 medium-6">
         <img src="assets/lena_side.jpeg" class="contact-image">
       </div>
+      <div class="column small-12 medium-6">
         <form class="contact-form">
           <fieldset>
-            <div class="row wrapper">   
+            <div class="row">   
               <div class="column small-12 medium-12">
-                <input placeholder="NAME">
+                <label for="name">Name</label>
+                <input placeholder="NAME" id="name">
               </div>
             </div>
-            <div class="row wrapper">   
-              <div class="column small-12 medium-12">    
-                <input placeholder="EMAIL">
+            <div class="row">   
+              <div class="column small-12 medium-12">
+                <label for="email">Email address</label>    
+                <input placeholder="EMAIL" id="email">
               </div>
             </div>
-            <div class="row wrapper">   
-              <div class="column small-12 medium-12">    
-                <input placeholder="SUBJECT">
+            <div class="row">   
+              <div class="column small-12 medium-12">
+                <label for="subject">Subject</label>    
+                <input placeholder="SUBJECT" id="subject">
               </div>
             </div>
-            <div class="row wrapper">   
-              <div class="column small-12 medium-12">    
-                <textarea placeholder="MESSAGE"></textarea>
+            <div class="row">   
+              <div class="column small-12 medium-12">
+                <label for="message">Message</label>    
+                <textarea placeholder="MESSAGE" id="message"></textarea>
               </div>
             </div>
-            <div class="row wrapper">   
-              <div class="column small-12 medium-12">    
+            <div class="row">   
+              <div class="column small-12 medium-12 align-right">    
                 <button class="contact-button-send" type="button">SEND</button>
               </div>  
           </fieldset>
         </form>
       </div>  
+      </div>  
     </div>
-    <div class="row wrapper">
+<!--     <div class="row wrapper">
       <div class="column small-12 medium-12">
       <span class="contact"><button class="contact-button" type="button">EMAIL ME</button></span>
       </div>  
-    </div>        
+    </div>    -->     
   </section>
   <footer>
     <div class="row wrapper">
@@ -91,7 +97,7 @@
            <i class="fa fa-facebook" aria-hidden="true"><a href="#"></a></i>
            <i class="fa fa-linkedin" aria-hidden="true"><a href="#"></a></i></p>
         <p class="copy-right"> &copy Lena Young 2016 </p>
-        <p class="copu-right"> Designed by <a href="emiliegerber.com">Emilie Gerber</a>
+        <p class="copu-right"> Designed by <a href="emiliegerber.com" class="footer-link">Emilie Gerber</a>
       </div>
     </div>   
   </footer>
