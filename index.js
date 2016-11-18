@@ -8,10 +8,14 @@ $( document ).ready(function() {
     }
 
     $('.contact-button').click(function(){
-      var email = '<p>lenaeyou@gmail.com</p>';
+      var email = $('.email');
       $('.contact-button').fadeOut("slow", function(){
-        $(email).appendTo('.contact').hide().fadeIn();
+        $('.contact-button').replaceWith('<span class="email">lenaeyou@gmail.com</span>');
+        // $('.email').toggleClass('.hidden');
+        // $('.email').css('visibility', 'visible');
+        // $(email).appendTo('.contact').hide().fadeIn();
       });
     })
 });
 
+//visibility: hidden
