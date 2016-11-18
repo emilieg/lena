@@ -149,10 +149,6 @@ MAIN
 .main {
   margin-bottom: 5vh;  
 }
-/*.main-barre {
-  height: 1200px;
-}*/  
-/*hidden email*/
 .main h1 {
   text-transform: uppercase;
   font-size: medium;
@@ -165,10 +161,13 @@ BARRE PAGE
   margin-top: 3em;
 }
 .barre-contact{
-  width: 100%;
+  height: 90px;
 }
 .align-right {
   text-align: right;
+}
+.show-on-mobile {
+  display: none;
 }
 /* ***********************************************************
 CONTACT PAGE
@@ -181,6 +180,7 @@ input {
   color: #596377;
   margin-bottom: 1em;
   outline: 0;
+  padding: 1em;
 }
 textarea {
   height: 5em;
@@ -194,7 +194,7 @@ label {
   font-weight: 700;
   color: #333C4E;
   letter-spacing: 1px;
-
+  margin-bottom: .5em;
 }
 .contact > h1 {
   font-size: 2em;
@@ -203,11 +203,18 @@ label {
   margin: 2em 0 2em 0;
   text-align: center;
 }
+.contact i {
+  font-size: 2em;
+}
+.contact-row {
+  margin-top: 2em;
+  margin-bottom: 5em;
+}
 /* ***********************************************************
 FOOTER
 ************************************************************ */
 footer {
-  padding: 80px 0px;
+  padding: 50px 0px;
   background-color: #333C4E;
   color: white;
   text-align: center;
@@ -263,6 +270,15 @@ MEDIA QUERIES
   }
   form {
     margin-top: 1em;
+  }
+  .contact-image {
+    display: none !important;
+  }
+  .show-on-mobile {
+    display: block; 
+  }
+  .hide-on-mobile {
+    display: none;
   }
 }
 
